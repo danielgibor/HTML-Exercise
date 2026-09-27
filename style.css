@@ -17,7 +17,7 @@ p{
     color: red;
 }
 .box{
-    padding: 30px;
+    padding: 3%;
     border: 5px solid black;
     margin: auto;
     /* box-sizing: border-box; */
