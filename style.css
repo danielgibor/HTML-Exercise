@@ -33,4 +33,31 @@ p{
     flex-direction: column;
     flex-wrap: wrap;
 }
+/* Here is a basic declarations*/
+.team{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.person{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+/* Media Queries*/
+
+@media (min-width: 800px){
+    .team {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 100px;
+    }
+    .person{
+        width: auto;
+    }
+}
+
 
